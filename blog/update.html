@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>update</title>
+	<link rel="stylesheet" type="text/css" href="update.css">
+	<script src="update.js"></script>
+</head>
+<body>
+	<div>
+		<form method="POST" action="insert.php" class="form">
+		    <div class="header font">Welcome to Osar's Blog</div>
+		    <div class="body">
+		    	<div class="left"><a href="main.html" class="font_3">Main Menu</a></div>
+		    	<div class="right">
+					<input type="text" name="title" class="title font_1" id="title" autocomplete="off">
+					<textarea name="article" class="article font_2" id="article"></textarea>
+				</div>
+			</div>
+			<div class="footer">
+				<button type="submit" class="submit" id="submit" onclick="detail_test(event)">提交</button>
+				<button type="button" onclick="text_clear()" class="button">清除</button>
+			</div>
+		</form>
+	</div>
+</body>
+</html>

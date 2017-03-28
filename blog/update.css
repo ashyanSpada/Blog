@@ -1,0 +1,117 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.header{
+	position:fixed;
+	top:0;
+	left:-55px;
+    width:60px;
+    height:100VH;
+    background-color:black;
+    transition:left 1s;
+}
+.header:hover{
+	left:0;
+}
+.a_1{
+	display:block;
+	text-decoration:none;
+	line-height:3;
+	position:relative;
+	top:100px;
+	text-align:center;
+	color:white;
+}
+.a_1:hover{
+	color:white;
+}
+.a_2{
+	display:block;
+	text-decoration:none;
+	line-height:3;
+	position:relative;
+	top:250px;
+	text-align:center;
+	color:white;
+}
+.a_2:hover{
+	color:white;
+}
+.a_3{
+	display:block;
+	text-decoration:none;
+	line-height:3;
+	position:relative;
+	top:400px;
+	text-align:center;
+	color:white;
+}
+.a_3:hover{
+	color:white;	
+}
+.form{
+    margin:auto;		
+	width:70%;
+	min-height:80VH;
+}
+.body{
+	width:100%;
+	min-height:80VH;
+}
+.headerWord{
+	font-size:20px;
+	font-weight:bold;
+}
+.title{
+	width:100%;
+	height:7%;
+	outline:none;
+	border:none;
+	border-bottom:1px dashed black;
+}
+.article{
+	width:100%;
+	height:93%;
+	resize:none;
+	outline:none;
+	overflow-y:scroll;
+	border:none;
+}
+.footer{
+	width:60px;
+	height:20VH;
+    position:fixed;
+    right:-55px;
+    bottom:0;
+    transition:right 1s;
+}
+.footer:hover{
+	right:0;
+}
+.font_3{
+	display:block;
+	text-align:center;
+	text-decoration:none;
+}
+.button{
+	outline:none;
+	display:block;
+	margin:auto;
+	width:60px;
+	height:10VH;
+	background-color:black;
+	color:white;
+	font-size:20px;
+}
+.submit{
+	outline:none;
+	display:block;
+	margin:auto;
+	width:60px;
+	height:10VH;
+	background-color:black;
+	color:white;
+	font-size:20px;
+}
